@@ -11,3 +11,4 @@ button{background:#1F3A5F;color:#fff;border:0;border-radius:6px;padding:.6rem 1.
 .btn-link{margin-left:1rem;color:#1F3A5F}
 label{display:block;margin:.8rem 0}select{display:block;margin-top:.3rem;padding:.4rem}
 .msg{color:#2e7d32;font-weight:600}
+.market-select{font-size:.9rem;color:#1F3A5F}.market-select select{display:inline-block;margin:0 0 0 .3rem;padding:.2rem}
