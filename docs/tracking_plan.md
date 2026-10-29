@@ -16,7 +16,7 @@ Fictional shop, no personal data. GA4 property "Nordvik Demo", Measurement ID `G
 
 ## Rules
 - Event and parameter names follow GA4's recommended e-commerce names, lowercase with underscores.
-- `value` is the gross price in EUR incl. VAT; `tax` is the VAT part. (A production shop would agree one convention with finance.)
+- `value` is the gross price in EUR incl. VAT; `tax` is the VAT part.  
 - `transaction_id` is unique per order. Sending the same ID twice is how duplicate purchases happen, which Step 8 checks.
 - Before every e-commerce push the data layer clears `ecommerce` (`ecommerce: null`) so old items don't leak into the next event.
 - `market` (DE, AT, FR, NL, UK, SE) is sent with every event. It comes from the `?market=` link parameter, default DE.
@@ -45,4 +45,4 @@ Base: `https://yvettedzs.github.io/nordvik-tracking-demo/`
 | TikTok | `?utm_source=tiktok&utm_medium=paid_social&utm_campaign=video_test_fr&market=FR` |
 | Affiliate | `?utm_source=gardenblog&utm_medium=affiliate&utm_campaign=review_nl&market=NL` |
 | Email | `?utm_source=newsletter&utm_medium=email&utm_campaign=autumn_offer_uk&market=UK` |
-| **Deliberately broken** (for Step 8) | `?utm_source=Meta&utm_campaign=spring%20sale` (capital letter, missing medium, space) |
+| **Deliberately broken** | `?utm_source=Meta&utm_campaign=spring%20sale` (capital letter, missing medium, space) |
