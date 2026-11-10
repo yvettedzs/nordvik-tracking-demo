@@ -54,8 +54,6 @@ Live site: https://yvettedzs.github.io/nordvik-tracking-demo/
 - **Not real:** the company, products, prices, orders and customers. The revenue figures in GA4 are made-up test orders.
 - **Not covered:** consent handling, ad-platform pixels, conversion APIs and server-side GTM. These are not part of this demo.
 
-## Status
-In progress: a server-side `purchase` event through the GA4 Measurement Protocol and SQL data-quality checks in BigQuery.
-
-Related project (simulated marketing measurement and incrementality): https://github.com/yvettedzs/nordvik-marketing-measurement
+## Related  
+Related project (simulated marketing measurement and incrementality): https://github.com/yvettedzs/nordvik-marketing-measurement  
 
